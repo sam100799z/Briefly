@@ -66,3 +66,4 @@ coverage/
 *.swp
 *~.nib
 *.swo
+.env
