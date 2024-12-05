@@ -1,5 +1,5 @@
 import { Logo2 } from "../assets";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <header className="w-full flex flex-col items-center mb-14 px-4 max-md:px-3">
@@ -10,11 +10,11 @@ const Hero = () => {
           alt="sumz_logo"
           className="w-[250px] max-md:w-[150px]"
         />
-        <Link to="https://github.com/sam100799z/Briefly">
-          <button className="bg-blue-950 text-white border-2 px-4 py-2 max-md:px-3 max-md:py-2 max-md:text-xs rounded-md hover:bg-slate-700">
+        {/* <Link to="https://github.com/sam100799z/Briefly"> */}
+          {/* <button className="bg-blue-950 text-white border-2 px-4 py-2 max-md:px-3 max-md:py-2 max-md:text-xs rounded-md hover:bg-slate-700">
             Git Hub
-          </button>
-        </Link>
+          </button> */}
+        {/* </Link> */}
       </nav>
 
       <h1 className="text-6xl text-center w-full max-md:text-5xl max-sm:text-4xl font-black leading-[115%] font-montserrat text-blue-950 tracking-wide">
